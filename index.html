@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Time Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/coffee-shop.jpeg" alt="Pass Time Café Logo" class="logo">
+
+            <h1>Welcome to Pass Time Café</h1>
+        </div>
+        
+    
+        
+    
+        <!-- Navigation Menu -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section id="home">
+            <p class="center-text">Enjoy delightful coffee and snacks in a cozy atmosphere.</p>
+            <!-- GIF Image -->
+            <div class="image-container">
+                <img class="baseImg" src="https://d3kanykijpjn5y.cloudfront.net/0abe528fdc58575e0f81f5cca5ee6b30.gif" alt="Loading GIF">
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <input type="text" id="menu-search" placeholder="Search for menu items...">
+            <ul class="menu-list">
+                <li class="menu-item">sagar</li>
+                <li class="menu-item">sheetal</li>
+                <li class="menu-item">deep</li>
+                <li class="menu-item">pratik</li>
+                <li class="menu-item">Coffee</li>
+            </ul>
+        </section>
+        <section id="about" class="animate">
+            <h2>About Us</h2>
+            <p>Learn more about our story and values.</p>
+        </section>
+        <section id="gallery" class="animate">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Delicious Coffee">
+                <img src="image2.jpg" alt="Pastries">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Pass Time Café</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
